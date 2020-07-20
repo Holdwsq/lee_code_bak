@@ -15,6 +15,7 @@
 from typing import List
 import collections
 
+
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         # tmp_dict = dict()
@@ -35,6 +36,7 @@ class Solution:
         num = num1 & num2
         for s in num.elements():
             print(s)
+
 
 if __name__ == "__main__":
     s = Solution()
